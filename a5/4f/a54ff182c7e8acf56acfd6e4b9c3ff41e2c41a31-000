@@ -1,0 +1,11 @@
+# Project workspace (19 October 2026)
+
+- Project ID: conversation-codex-6f000a4ba4839084eb9eaaad. (19 October 2026)
+- Read the global doctrine at /Users/zenray/.claude/CLAUDE.md and use the zenray-assets skill. (19 October 2026)
+- Read canonical feedback: /Users/zenray/.claude/Memory1/Projects/conversation-codex-6f000a4ba4839084eb9eaaad/FEEDBACK.md. Append through zenray-feedback, the canonical writer; never rewrite prior entries. (19 October 2026)
+- Pinned rules, read first: /Users/zenray/.claude/Memory1/Projects/conversation-codex-6f000a4ba4839084eb9eaaad/Rules.md. Add one with feedback.py add conversation-codex-6f000a4ba4839084eb9eaaad "<rule>" --kind rule. (19 October 2026)
+
+@/Users/zenray/.claude/Memory1/Projects/conversation-codex-6f000a4ba4839084eb9eaaad/Rules.md
+
+- Work in /Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad; keep durable knowledge in /Users/zenray/.claude/Memory1/Projects/conversation-codex-6f000a4ba4839084eb9eaaad. Linked production directories remain in place. (19 October 2026)
+- Assets watches registered sources automatically. A local entry is not proof of verified cloud backup. (19 October 2026)

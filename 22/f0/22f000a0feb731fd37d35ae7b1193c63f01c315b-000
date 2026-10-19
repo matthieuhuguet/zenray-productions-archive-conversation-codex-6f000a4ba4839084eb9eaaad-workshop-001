@@ -1,0 +1,451 @@
+{
+  "" : {
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.dia",
+    "emit-module-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary-emit-module.dia",
+    "pch" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.swiftdeps"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/About.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/About.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/About.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/About.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Accessibility.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Accessibility.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Accessibility.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Accessibility.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/AppDelegate.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/AppStoreReview.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppStoreReview.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppStoreReview.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppStoreReview.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/ApplicationImage.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImage.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImage.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImage.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/ApplicationImageCache.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImageCache.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImageCache.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ApplicationImageCache.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Clipboard.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clipboard.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clipboard.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clipboard.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/ColorImage.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ColorImage.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ColorImage.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ColorImage.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Collection+Surrounding.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Collection+Surrounding.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Collection+Surrounding.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Collection+Surrounding.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Color+Random.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Color+Random.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Color+Random.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Color+Random.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Defaults.Keys+Names.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Defaults.Keys+Names.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Defaults.Keys+Names.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Defaults.Keys+Names.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Dictionary+RemoveItem.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Dictionary+RemoveItem.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Dictionary+RemoveItem.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Dictionary+RemoveItem.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/KeyEquivalent+Keys.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyEquivalent+Keys.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyEquivalent+Keys.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyEquivalent+Keys.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/KeyboardShortcuts.Name+Shortcuts.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcuts.Name+Shortcuts.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcuts.Name+Shortcuts.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcuts.Name+Shortcuts.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/ModifierFlags+Description.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags+Description.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags+Description.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags+Description.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSApplication+Windows.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSApplication+Windows.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSApplication+Windows.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSApplication+Windows.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSImage+Names.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Names.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Names.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Names.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSImage+Resized.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Resized.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Resized.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSImage+Resized.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSPasteboard.PasteboardType+Types.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPasteboard.PasteboardType+Types.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPasteboard.PasteboardType+Types.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPasteboard.PasteboardType+Types.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSPoint+DefaultsSerializable.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPoint+DefaultsSerializable.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPoint+DefaultsSerializable.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSPoint+DefaultsSerializable.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSRect+Centered.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRect+Centered.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRect+Centered.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRect+Centered.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSRunningApplication+WindowFrame.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRunningApplication+WindowFrame.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRunningApplication+WindowFrame.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSRunningApplication+WindowFrame.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSScreen+ForPopup.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSScreen+ForPopup.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSSize+DefaultsSerializable.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSize+DefaultsSerializable.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSize+DefaultsSerializable.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSize+DefaultsSerializable.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSSound+Named.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSound+Named.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSound+Named.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSSound+Named.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/NSWorkspace+ApplicationName.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSWorkspace+ApplicationName.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSWorkspace+ApplicationName.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/NSWorkspace+ApplicationName.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Sauce+KeyboardShortcuts.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sauce+KeyboardShortcuts.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sauce+KeyboardShortcuts.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sauce+KeyboardShortcuts.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Settings.PaneIdentifier+Panes.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Settings.PaneIdentifier+Panes.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Settings.PaneIdentifier+Panes.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Settings.PaneIdentifier+Panes.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/String+Identifiable.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Identifiable.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Identifiable.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Identifiable.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/String+Shortened.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Shortened.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Shortened.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/String+Shortened.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/FloatingPanel.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FloatingPanel.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FloatingPanel.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FloatingPanel.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/HighlightMatch.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HighlightMatch.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HighlightMatch.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HighlightMatch.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/HistoryItemAction.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAction.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAction.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAction.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/AppIntentError.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppIntentError.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppIntentError.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppIntentError.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/Clear.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clear.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clear.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Clear.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/Delete.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Delete.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Delete.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Delete.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/Get.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Get.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Get.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Get.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/HistoryItemAppEntity.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAppEntity.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAppEntity.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemAppEntity.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Intents/Select.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Select.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Select.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Select.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/KeyChord.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyChord.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyChord.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyChord.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/KeyShortcut.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyShortcut.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyShortcut.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyShortcut.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/KeyboardLayout.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardLayout.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardLayout.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardLayout.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/MaccyApp.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MaccyApp.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MaccyApp.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MaccyApp.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/MenuIcon.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MenuIcon.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MenuIcon.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MenuIcon.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Models/HistoryItem.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItem.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItem.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItem.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Models/HistoryItemContent.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemContent.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemContent.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemContent.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Notifier.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Notifier.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Notifier.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Notifier.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/AppState.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppState.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/Footer.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Footer.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Footer.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Footer.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/FooterItem.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItem.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItem.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItem.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/History.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/History.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/History.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/History.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/HistoryItemDecorator.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemDecorator.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemDecorator.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemDecorator.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/ModifierFlags.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ModifierFlags.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Observables/Popup.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Popup.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Popup.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Popup.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/PinsPosition.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsPosition.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsPosition.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsPosition.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/PopupPosition.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PopupPosition.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PopupPosition.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PopupPosition.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Search.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Search.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Search.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Search.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/SearchVisibility.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchVisibility.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchVisibility.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchVisibility.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/AdvancedSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AdvancedSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AdvancedSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AdvancedSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/AppearanceSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppearanceSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppearanceSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/AppearanceSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/GeneralSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneralSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneralSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/GeneralSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/IgnoreSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/IgnoreSettingsPane/IgnoreApplicationsSettingsView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreApplicationsSettingsView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/IgnoreSettingsPane/IgnorePasteboardTypesSettingsView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnorePasteboardTypesSettingsView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/IgnoreSettingsPane/IgnoreRegexpsSettingsView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/IgnoreRegexpsSettingsView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/PinsSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PinsSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Settings/StorageSettingsPane.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/StorageSettingsPane.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/StorageSettingsPane.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/StorageSettingsPane.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/SoftwareUpdater.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SoftwareUpdater.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SoftwareUpdater.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SoftwareUpdater.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Sorter.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sorter.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sorter.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Sorter.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Storage.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Storage.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Storage.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Storage.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Throttler.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Throttler.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Throttler.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Throttler.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/ConfirmationView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ConfirmationView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ConfirmationView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ConfirmationView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/FooterItemView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItemView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItemView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterItemView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/FooterView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/FooterView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/HeaderView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HeaderView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HeaderView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HeaderView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/HistoryItemView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryItemView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/HistoryListView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryListView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryListView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/HistoryListView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/KeyHandlingView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyHandlingView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyHandlingView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyHandlingView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/KeyboardShortcutView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcutView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcutView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/KeyboardShortcutView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/ListItemTitleView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemTitleView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemTitleView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemTitleView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/ListItemView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/ListItemView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/MouseMovedViewModifer.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MouseMovedViewModifer.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MouseMovedViewModifer.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/MouseMovedViewModifer.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/PreviewItemView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PreviewItemView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PreviewItemView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/PreviewItemView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/SearchFieldView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchFieldView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchFieldView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/SearchFieldView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/VisualEffectView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/VisualEffectView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/VisualEffectView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/VisualEffectView.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Views/WrappingTextView.swift" : {
+    "index-unit-output-path" : "/Maccy.build/Release/Maccy.build/Objects-normal/arm64/WrappingTextView.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/WrappingTextView.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/WrappingTextView.o"
+  }
+}

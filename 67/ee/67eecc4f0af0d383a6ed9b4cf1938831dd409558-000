@@ -1,0 +1,12 @@
+{
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "abi-baseline-json" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.abi.json",
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.dia",
+    "objc-header" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-Swift.h",
+    "swiftdoc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.swiftdoc",
+    "swiftmodule" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.swiftmodule",
+    "swiftsourceinfo" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.swiftsourceinfo"
+  }
+}

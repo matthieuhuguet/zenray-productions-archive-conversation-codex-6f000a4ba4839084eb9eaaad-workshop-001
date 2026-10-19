@@ -1,0 +1,12 @@
+{
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/fuse-swift/Fuse/Classes/Fuse.swift" : {
+    "abi-baseline-json" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse.abi.json",
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse-primary.dia",
+    "objc-header" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse-Swift.h",
+    "swiftdoc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse.swiftdoc",
+    "swiftmodule" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse.swiftmodule",
+    "swiftsourceinfo" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Fuse.build/Release/Fuse-t.build/Objects-normal/arm64/Fuse.swiftsourceinfo"
+  }
+}

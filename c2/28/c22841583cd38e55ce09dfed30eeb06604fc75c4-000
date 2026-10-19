@@ -1,0 +1,12 @@
+{
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/MaccySource/Maccy/Extensions/Collection+Surrounding.swift" : {
+    "abi-baseline-json" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy.abi.json",
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-primary.dia",
+    "objc-header" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy-Swift.h",
+    "swiftdoc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy.swiftdoc",
+    "swiftmodule" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy.swiftmodule",
+    "swiftsourceinfo" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Maccy.build/Release/Maccy.build/Objects-normal/arm64/Maccy.swiftsourceinfo"
+  }
+}
