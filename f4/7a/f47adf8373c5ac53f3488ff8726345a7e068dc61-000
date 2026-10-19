@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>DB5A38D7-166A-4490-B7F0-7F62613D7DEF</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DB5A38D7-166A-4490-B7F0-7F62613D7DEF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>5</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Maccy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Maccy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>814117849.088485</real>
+			<key>timeStoppedRecording</key>
+			<real>814117875.59638</real>
+			<key>title</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>DB5A38D7-166A-4490-B7F0-7F62613D7DEF</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
