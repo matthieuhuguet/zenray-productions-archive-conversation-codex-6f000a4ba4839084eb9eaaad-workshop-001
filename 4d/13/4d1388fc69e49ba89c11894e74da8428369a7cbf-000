@@ -1,0 +1,51 @@
+{
+  "" : {
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.dia",
+    "emit-module-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary-emit-module.dia",
+    "pch" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.swiftdeps"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/InputSource.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/InputSource.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/InputSource.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/InputSource.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/Key.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Key.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Key.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Key.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/KeyboardLayout.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/KeyboardLayout.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/KeyboardLayout.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/KeyboardLayout.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/ModifierTransformer.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/ModifierTransformer.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/ModifierTransformer.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/ModifierTransformer.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/NSMenuItem+Key.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/NSMenuItem+Key.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/NSMenuItem+Key.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/NSMenuItem+Key.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/Sauce.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/SpecialKeyCode.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/SpecialKeyCode.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/SpecialKeyCode.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/SpecialKeyCode.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/TISInputSource+Property.swift" : {
+    "index-unit-output-path" : "/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/TISInputSource+Property.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/TISInputSource+Property.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/TISInputSource+Property.o"
+  }
+}

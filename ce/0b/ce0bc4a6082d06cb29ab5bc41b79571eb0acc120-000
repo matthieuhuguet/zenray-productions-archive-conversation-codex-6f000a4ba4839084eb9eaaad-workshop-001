@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary.dia",
+    "emit-module-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary-emit-module.dia",
+    "pch" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors-primary.swiftdeps"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/SwiftHEXColors/Sources/SwiftHEXColors/SwiftHEXColors.swift" : {
+    "index-unit-output-path" : "/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/SwiftHEXColors.build/Release/SwiftHEXColors-t.build/Objects-normal/arm64/SwiftHEXColors.o"
+  }
+}

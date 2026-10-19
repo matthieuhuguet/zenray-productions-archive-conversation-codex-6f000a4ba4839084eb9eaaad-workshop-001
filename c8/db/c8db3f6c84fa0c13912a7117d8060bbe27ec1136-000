@@ -1,0 +1,12 @@
+{
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/Sauce/Lib/Sauce/InputSource.swift" : {
+    "abi-baseline-json" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.abi.json",
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-primary.dia",
+    "objc-header" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce-Swift.h",
+    "swiftdoc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.swiftdoc",
+    "swiftmodule" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.swiftmodule",
+    "swiftsourceinfo" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/Sauce.build/Release/Sauce-t.build/Objects-normal/arm64/Sauce.swiftsourceinfo"
+  }
+}

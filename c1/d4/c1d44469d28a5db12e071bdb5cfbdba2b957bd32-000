@@ -1,0 +1,12 @@
+{
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/swift-log/Sources/Logging/Locks.swift" : {
+    "abi-baseline-json" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging.abi.json",
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging-primary.dia",
+    "objc-header" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging-Swift.h",
+    "swiftdoc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging.swiftdoc",
+    "swiftmodule" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging.swiftmodule",
+    "swiftsourceinfo" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/swift-log.build/Release/Logging-t.build/Objects-normal/arm64/Logging.swiftsourceinfo"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "" : {
+    "const-values" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.swiftconstvalues",
+    "dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.d",
+    "diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.dia",
+    "emit-module-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary-emit-module.dia",
+    "pch" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts-primary.swiftdeps"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/CarbonKeyboardShortcuts.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/CarbonKeyboardShortcuts.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/CarbonKeyboardShortcuts.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/CarbonKeyboardShortcuts.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Key.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Key.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Key.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Key.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/KeyboardShortcuts.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/KeyboardShortcuts.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/NSMenuItem++.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/NSMenuItem++.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/NSMenuItem++.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/NSMenuItem++.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Name.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Name.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Name.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Name.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Recorder.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Recorder.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Recorder.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Recorder.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/RecorderCocoa.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/RecorderCocoa.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/RecorderCocoa.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/RecorderCocoa.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Shortcut.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Shortcut.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Shortcut.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Shortcut.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/Utilities.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Utilities.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Utilities.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/Utilities.o"
+  },
+  "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Packages/checkouts/KeyboardShortcuts/Sources/KeyboardShortcuts/ViewModifiers.swift" : {
+    "index-unit-output-path" : "/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/ViewModifiers.o",
+    "llvm-bc" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/ViewModifiers.bc",
+    "object" : "/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad/Build/Derived/Build/Intermediates.noindex/KeyboardShortcuts.build/Release/KeyboardShortcuts-t.build/Objects-normal/arm64/ViewModifiers.o"
+  }
+}
