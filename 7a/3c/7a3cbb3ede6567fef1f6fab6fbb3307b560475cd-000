@@ -1,0 +1,62 @@
+import AppKit
+import ImageIO
+
+// 19 October 2026, 17:51 CEST: Bound preview allocations without retaining full-resolution sources.
+enum ImageMemoryPolicy {
+  static let defaultPreviewMaxPixels = 2048.0
+  static let defaultThumbnailScale = 2.0
+  static var previewMaxPixels: CGFloat {
+    let value = UserDefaults.standard.object(forKey: "previewMaxPixels") as? Double ?? defaultPreviewMaxPixels
+    return CGFloat(min(4096, max(512, value)))
+  }
+  static var thumbnailScale: CGFloat {
+    let value = UserDefaults.standard.object(forKey: "thumbnailScale") as? Double ?? defaultThumbnailScale
+    return CGFloat(min(2, max(1, value)))
+  }
+  static var releasePreviewsWhenHidden: Bool {
+    UserDefaults.standard.object(forKey: "releasePreviewsWhenHidden") as? Bool ?? true
+  }
+  static func downsample(_ data: Data, to bounds: NSSize, scale: CGFloat = 1) -> NSImage? {
+    autoreleasepool {
+      let options = [kCGImageSourceShouldCache: false] as CFDictionary
+      guard let source = CGImageSourceCreateWithData(data as CFData, options),
+            let properties = CGImageSourceCopyPropertiesAtIndex(source, 0, nil) as? [CFString: Any],
+            let width = properties[kCGImagePropertyPixelWidth] as? NSNumber,
+            let height = properties[kCGImagePropertyPixelHeight] as? NSNumber,
+            width.doubleValue > 0, height.doubleValue > 0 else { return nil }
+      let w = CGFloat(width.doubleValue), h = CGFloat(height.doubleValue)
+      let factor = min(1, min(bounds.width * scale / w, bounds.height * scale / h))
+      let maxPixels = max(1, Int(ceil(max(w, h) * factor)))
+      let thumbnailOptions: [CFString: Any] = [
+        kCGImageSourceCreateThumbnailFromImageAlways: true,
+        kCGImageSourceCreateThumbnailWithTransform: true,
+        kCGImageSourceThumbnailMaxPixelSize: maxPixels,
+        kCGImageSourceShouldCacheImmediately: true
+      ]
+      guard let image = CGImageSourceCreateThumbnailAtIndex(source, 0, thumbnailOptions as CFDictionary) else {
+        return nil
+      }
+      return NSImage(cgImage: image, size: NSSize(width: CGFloat(image.width) / scale,
+                                                height: CGFloat(image.height) / scale))
+    }
+  }
+}
+
+extension NSImage {
+  func resized(to newSize: NSSize) -> NSImage {
+    let ratio = min(1, min(newSize.width / max(1, size.width), newSize.height / max(1, size.height)))
+    let target = NSSize(width: max(1, size.width * ratio), height: max(1, size.height * ratio))
+    guard let bitmap = NSBitmapImageRep(bitmapDataPlanes: nil, pixelsWide: Int(ceil(target.width)),
+      pixelsHigh: Int(ceil(target.height)), bitsPerSample: 8, samplesPerPixel: 4,
+      hasAlpha: true, isPlanar: false, colorSpaceName: .deviceRGB, bytesPerRow: 0, bitsPerPixel: 0),
+      let context = NSGraphicsContext(bitmapImageRep: bitmap) else { return self }
+    NSGraphicsContext.saveGraphicsState()
+    NSGraphicsContext.current = context
+    context.imageInterpolation = .high
+    draw(in: NSRect(origin: .zero, size: target), from: .zero, operation: .copy, fraction: 1)
+    NSGraphicsContext.restoreGraphicsState()
+    let image = NSImage(size: target)
+    image.addRepresentation(bitmap)
+    return image
+  }
+}

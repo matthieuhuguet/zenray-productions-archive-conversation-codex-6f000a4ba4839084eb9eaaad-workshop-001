@@ -1,0 +1,72 @@
+import SwiftUI
+import Defaults
+
+struct AdvancedSettingsPane: View {
+  // 19 October 2026, 17:51 CEST: Editable memory policy; clipboard originals remain unchanged.
+  @AppStorage("previewMaxPixels") private var previewMaxPixels = ImageMemoryPolicy.defaultPreviewMaxPixels
+  @AppStorage("thumbnailScale") private var thumbnailScale = ImageMemoryPolicy.defaultThumbnailScale
+  @AppStorage("releasePreviewsWhenHidden") private var releasePreviewsWhenHidden = true
+
+  // 19 October 2026, 17:58 CEST: Shell examples must target this independent build.
+  private func script(_ key: String) -> String {
+    NSLocalizedString(key, tableName: "AdvancedSettings", comment: "")
+      .replacingOccurrences(of: "org.p0deje.Maccy", with: Bundle.main.bundleIdentifier ?? "st.zenray.clipboard")
+  }
+
+  var body: some View {
+    VStack(alignment: .leading) {
+      Defaults.Toggle(key: .ignoreEvents) {
+        Text("TurnOff", tableName: "AdvancedSettings")
+      }
+      Text("TurnOffDescription", tableName: "AdvancedSettings")
+        .fixedSize(horizontal: false, vertical: true)
+        .foregroundStyle(.gray)
+        .controlSize(.small)
+      Text(script("TurnOffShellScript"))
+        .fixedSize(horizontal: false, vertical: true)
+        .foregroundStyle(.gray)
+        .font(.system(size: 11, design: .monospaced))
+        .controlSize(.small)
+        .padding(.vertical, 2)
+      Text("TurnOffViaMenuIconDescription", tableName: "AdvancedSettings")
+        .fixedSize(horizontal: false, vertical: true)
+        .foregroundStyle(.gray)
+        .controlSize(.small)
+      Text(script("TurnOffNextShellScript"))
+        .fixedSize(horizontal: false, vertical: true)
+        .foregroundStyle(.gray)
+        .font(.system(size: 11, design: .monospaced))
+        .controlSize(.small)
+        .padding(.vertical, 2)
+
+      Divider()
+      GroupBox("Memory") {
+        VStack(alignment: .leading) {
+          Toggle("Release image previews when closed", isOn: $releasePreviewsWhenHidden)
+          Text("Preview resolution: \(Int(previewMaxPixels)) px")
+          Slider(value: $previewMaxPixels, in: 512...4096, step: 256)
+          Text("Thumbnail scale: \(thumbnailScale, specifier: "%.1f")")
+          Slider(value: $thumbnailScale, in: 1...2, step: 0.5)
+          Text("Original clipboard images and text keep their full quality.")
+            .font(.caption).foregroundStyle(.secondary)
+        }
+      }
+      Divider()
+
+      Defaults.Toggle(key: .clearOnQuit) {
+        Text("ClearHistoryOnQuit", tableName: "AdvancedSettings")
+      }.help(Text("ClearHistoryOnQuitTooltip", tableName: "AdvancedSettings"))
+
+      Defaults.Toggle(key: .clearSystemClipboard) {
+        Text("ClearSystemClipboard", tableName: "AdvancedSettings")
+      }.help(Text("ClearSystemClipboardTooltip", tableName: "AdvancedSettings"))
+    }
+    .frame(minWidth: 350, maxWidth: 450)
+    .padding()
+  }
+}
+
+#Preview {
+  AdvancedSettingsPane()
+    .environment(\.locale, .init(identifier: "en"))
+}

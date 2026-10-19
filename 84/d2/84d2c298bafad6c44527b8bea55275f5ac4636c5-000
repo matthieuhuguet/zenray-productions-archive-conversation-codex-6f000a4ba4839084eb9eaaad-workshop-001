@@ -1,0 +1,14 @@
+import AppKit
+import Observation
+
+// 19 October 2026, 17:51 CEST: Upstream binaries must not overwrite this local memory build.
+@Observable
+class SoftwareUpdater {
+  var automaticallyChecksForUpdates = false
+  func checkForUpdates() {
+    let alert = NSAlert()
+    alert.messageText = "ZenRay Clipboard"
+    alert.informativeText = "Local memory-optimized build based on Maccy 2.6.1. Rebuild from the saved sources to update."
+    alert.runModal()
+  }
+}
