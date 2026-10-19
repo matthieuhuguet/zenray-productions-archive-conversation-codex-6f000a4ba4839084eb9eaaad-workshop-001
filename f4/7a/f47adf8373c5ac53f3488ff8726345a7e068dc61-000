@@ -6,6 +6,90 @@
 	<integer>13</integer>
 	<key>logs</key>
 	<dict>
+		<key>9CEE51B2-BD36-4D0F-9A2C-23FCDC15183A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9CEE51B2-BD36-4D0F-9A2C-23FCDC15183A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>5</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Maccy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Maccy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>814118083.76361203</real>
+			<key>timeStoppedRecording</key>
+			<real>814118092.55087996</real>
+			<key>title</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>9CEE51B2-BD36-4D0F-9A2C-23FCDC15183A</string>
+		</dict>
+		<key>CB94C87E-0BEF-406A-9EF1-B54D9862AB48</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CB94C87E-0BEF-406A-9EF1-B54D9862AB48.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>5</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Maccy project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Maccy</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>814118154.86501002</real>
+			<key>timeStoppedRecording</key>
+			<real>814118166.48183095</real>
+			<key>title</key>
+			<string>Building project Maccy with scheme Maccy and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>CB94C87E-0BEF-406A-9EF1-B54D9862AB48</string>
+		</dict>
 		<key>DB5A38D7-166A-4490-B7F0-7F62613D7DEF</key>
 		<dict>
 			<key>className</key>
