@@ -1,0 +1,18 @@
+{
+  "projectId": "conversation-codex-6f000a4ba4839084eb9eaaad",
+  "name": "ZenRay Clipboard (Maccy Optimis\u00e9 & Raccourci Cmd+B)",
+  "entries": [
+    {
+      "id": "revision-1-codex",
+      "createdAt": "2026-10-19T17:58:10+02:00",
+      "sourceDigest": "b7a38774306b08931b01334d9779d1021a29d0149ed8c85dfffa3f738bcec005",
+      "summary": "Audit RAM macOS, restauration de Spotlight (com.apple.campo), et cr\u00e9ation du fork ZenRay Clipboard (/Applications/ZenRayClipboard.app) avec sous-\u00e9chantillonnage ImageIO et purge des aper\u00e7us (88-98 MiB au repos contre 490,8 Mo) tout en pr\u00e9servant les 50 entr\u00e9es d'historique."
+    },
+    {
+      "id": "revision-2-antigravity",
+      "createdAt": "2026-11-03T23:10:00+01:00",
+      "sourceDigest": "e2fe803c7a702be85df4214c902e37c9fdebbb379d222a41b5b3bee43e16c9c3",
+      "summary": "Ajout du raccourci global param\u00e9trable Cmd+B (swapLastTwo) qui intervertit instantan\u00e9ment les 2 derniers \u00e9l\u00e9ments non \u00e9pingl\u00e9s du presse-papiers (chat <-> chien, image <-> prompt) et colle directement (Cmd+V) en une seule touche, avec activation de l'invite Accessibilit\u00e9 macOS."
+    }
+  ]
+}
