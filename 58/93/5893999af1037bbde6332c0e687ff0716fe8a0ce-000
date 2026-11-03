@@ -194,6 +194,8 @@ class History { // swiftlint:disable:this type_body_length
         all.insert(itemDecorator, at: index)
       }
 
+      try? Storage.shared.context.save()
+
       items = all
       updateUnpinnedShortcuts()
       AppState.shared.popup.needsResize = true
@@ -294,6 +296,51 @@ class History { // swiftlint:disable:this type_body_length
   @MainActor
   private func cleanup(_ item: HistoryItemDecorator) {
     item.cleanupImages()
+  }
+
+  @MainActor
+  func swapLastTwo() {
+    Clipboard.shared.checkForChangesInPasteboard()
+    let topTwo = Array(all.filter(\.isUnpinned).prefix(2))
+    guard topTwo.count == 2 else {
+      return
+    }
+
+    let previous = topTwo[1]
+    let previousContents = previous.item.contents.filter { content in
+      ![
+        NSPasteboard.PasteboardType.modified.rawValue,
+        NSPasteboard.PasteboardType.fromMaccy.rawValue,
+        NSPasteboard.PasteboardType.linkPresentationMetadata.rawValue,
+        NSPasteboard.PasteboardType.customPasteboardData.rawValue,
+        NSPasteboard.PasteboardType.source.rawValue
+      ].contains(content.type)
+    }.map { ($0.type, $0.value) }
+
+    Clipboard.shared.copy(previous.item, removeFormatting: Defaults[.removeFormattingByDefault], syncImmediately: true)
+
+    // Ensure the top 2 unpinned items are swapped in all sorting modes
+    if let firstIdx = all.firstIndex(where: \.isUnpinned),
+       let secondIdx = all[(firstIdx + 1)...].firstIndex(where: \.isUnpinned),
+       previousContents.allSatisfy({ type, val in
+         all[secondIdx].item.contents.contains(where: { $0.type == type && $0.value == val })
+       }) {
+      let moved = all.remove(at: secondIdx)
+      all.insert(moved, at: firstIdx)
+      if searchQuery.isEmpty {
+        items = all
+      }
+      updateUnpinnedShortcuts()
+    }
+
+    selectionAfterSwap(previous)
+  }
+
+  @MainActor
+  private func selectionAfterSwap(_ previous: HistoryItemDecorator) {
+    if searchQuery.isEmpty {
+      AppState.shared.selection = unpinnedItems.first?.id ?? previous.id
+    }
   }
 
   @MainActor

@@ -45,6 +45,11 @@ struct GeneralSettingsPane: View {
           .help(Text("OpenTooltip", tableName: "GeneralSettings"))
       }
 
+      Settings.Section(label: { Text("SwapLastTwo", tableName: "GeneralSettings") }) {
+        KeyboardShortcuts.Recorder(for: .swapLastTwo)
+          .help(Text("SwapLastTwoTooltip", tableName: "GeneralSettings"))
+      }
+
       Settings.Section(label: { Text("Pin", tableName: "GeneralSettings") }) {
         KeyboardShortcuts.Recorder(for: .pin)
           .help(Text("PinTooltip", tableName: "GeneralSettings"))
