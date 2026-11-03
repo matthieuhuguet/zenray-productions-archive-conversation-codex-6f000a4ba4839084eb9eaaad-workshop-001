@@ -334,6 +334,7 @@ class History { // swiftlint:disable:this type_body_length
     }
 
     selectionAfterSwap(previous)
+    Clipboard.shared.paste()
   }
 
   @MainActor

@@ -6,7 +6,7 @@
 	<integer>13</integer>
 	<key>logs</key>
 	<dict>
-		<key>91B9394E-9C17-4144-A92C-11CD7A1C171D</key>
+		<key>102BDB9B-FBCE-4E00-A324-C404B79DE965</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>91B9394E-9C17-4144-A92C-11CD7A1C171D.xcactivitylog</string>
+			<string>102BDB9B-FBCE-4E00-A324-C404B79DE965.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Building project Maccy with scheme Maccy and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>815431999.50774705</real>
+			<real>815436599.72442603</real>
 			<key>timeStoppedRecording</key>
-			<real>815432017.835783</real>
+			<real>815436611.40458405</real>
 			<key>title</key>
 			<string>Building project Maccy with scheme Maccy and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>91B9394E-9C17-4144-A92C-11CD7A1C171D</string>
+			<string>102BDB9B-FBCE-4E00-A324-C404B79DE965</string>
 		</dict>
-		<key>CB94C87E-0BEF-406A-9EF1-B54D9862AB48</key>
+		<key>9E0666EE-2240-43D5-97E2-E46F0F62D2EE</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CB94C87E-0BEF-406A-9EF1-B54D9862AB48.xcactivitylog</string>
+			<string>9E0666EE-2240-43D5-97E2-E46F0F62D2EE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Building project Maccy with scheme Maccy and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>814118154.86501002</real>
+			<real>815436464.0668</real>
 			<key>timeStoppedRecording</key>
-			<real>814118166.48183095</real>
+			<real>815436480.36651003</real>
 			<key>title</key>
 			<string>Building project Maccy with scheme Maccy and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>CB94C87E-0BEF-406A-9EF1-B54D9862AB48</string>
+			<string>9E0666EE-2240-43D5-97E2-E46F0F62D2EE</string>
 		</dict>
 	</dict>
 </dict>

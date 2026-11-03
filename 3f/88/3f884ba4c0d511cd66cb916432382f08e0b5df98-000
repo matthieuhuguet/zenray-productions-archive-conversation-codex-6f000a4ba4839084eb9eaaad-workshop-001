@@ -7,5 +7,8 @@ struct Accessibility {
     guard !allowed else {
       return
     }
+
+    let options: NSDictionary = [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true]
+    AXIsProcessTrustedWithOptions(options)
   }
 }
