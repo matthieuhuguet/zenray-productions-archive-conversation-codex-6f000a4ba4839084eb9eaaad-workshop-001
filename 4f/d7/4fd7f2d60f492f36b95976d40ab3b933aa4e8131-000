@@ -2,151 +2,151 @@
   {
     "isFramework" : false,
     "moduleName" : "Darwin",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Darwin.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/Darwin.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "Swift",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/Swift.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/Swift.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_Builtin_float",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_Builtin_float.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_Builtin_float.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_Concurrency",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_Concurrency.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_Concurrency.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation1.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_DarwinFoundation1.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation2.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_DarwinFoundation2.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_DarwinFoundation3.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_DarwinFoundation3.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "isFramework" : false,
     "moduleName" : "_StringProcessing",
-    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.0\/_StringProcessing.swiftmodule\/arm64e-apple-macos.swiftmodule"
+    "modulePath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/swift\/macosx\/prebuilt-modules\/27.2\/_StringProcessing.swiftmodule\/arm64e-apple-macos.swiftmodule"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/Darwin.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/Darwin-2CJTCETP0STF6EIL3SZYEF90R.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/Darwin-106N67LG1U1PYC52SKWYIP0FO.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "Darwin"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/SwiftShims-A26BBYOJ3ET5L2BYN2WXXRUNI.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/SwiftShims-8R6MPSVV0EZZG4ZMTO817E08J.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "SwiftShims"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-BSE7UCNK6RW4ZU86MDM8SB9WV.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_AvailabilityInternal-1HUU4OZF3BSF52OLRN44XNJTX.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_AvailabilityInternal"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_float-30OK6ZGLQNRQAUS48JQOHV9ZL.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_float-B14VW3ZZWEKEWV0YPE43VSHVS.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_float"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-1EPZLK1UKMHPLUQINVDWXN1Q1.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_inttypes-CRP4W2869JK3FKB5KPKH79X3Z.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_inttypes"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_limits-C2BF99UT5TT9UGEDPRZ2CZ9QH.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_limits-CLKJMIZGBKR9Q0I47EBPD21D0.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_limits"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-7Y36KX27TZ8IIT78LDFNOADD7.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdarg-5DSXRVKJA2PF2UWRECS56664R.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdarg"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-7WITPCC1DACA168O62T3NQPNF.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdbool-AJ0ND1SVT0RDSKICGDFIKHTXP.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdbool"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stddef-7NC7CYOF4M81VKAT1T8O2T5GY.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stddef-E20AY3QVLLTPHFVUHHTL3K73K.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stddef"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdint-1QDWBXMRIE0K17Q0DPA065GK0.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_Builtin_stdint-B6Z54CX2E50QXFH1LCSPV4FJN.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_Builtin_stdint"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation1.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-DZP72LJ0FHLGW8MAYTU8F33II.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation1-A5PIJLFYPCTMRYBV7488WXD7S.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation1"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-CZ5Y7WUATVRJM4FBTOQ1PPEGM.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation2-AM0QUOBTC1923POWGL9PKEXKF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation2"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation3.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-DVRJESJD6XOHK66CO1KCC4LYJ.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_DarwinFoundation3-C0U32BV0GXC0BYG9PXAS4MKHF.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_DarwinFoundation3"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/lib\/swift\/shims\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-95ZYFRDNP1FG43LBPB1OF2QHB.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/_SwiftConcurrencyShims-3PNQSLHVT77AHIFB4QC7WNSXG.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "_SwiftConcurrencyShims"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Toolchains\/XcodeDefault.xctoolchain\/usr\/lib\/clang\/21\/include\/module.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/ptrcheck-3K0QM6WW6HAYARITI6YBTX5DP.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/ptrcheck-B9KQQ38TE65MZF735HAFDWR9G.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "ptrcheck"
   },
   {
     "clangModuleMapPath" : "\/Applications\/Xcode.app\/Contents\/Developer\/Platforms\/MacOSX.platform\/Developer\/SDKs\/MacOSX.sdk\/usr\/include\/DarwinFoundation2.modulemap",
-    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/sys_types-6AMQBOMC9YD222J0KE2XID5NI.pcm",
+    "clangModulePath" : "\/Users\/zenray\/.claude\/tmp\/tmp-conversation-codex-6f000a4ba4839084eb9eaaad\/Build\/Derived\/SDKExplicitPrecompiledModules\/sys_types-4TS6NJKS1H5P9I6AUTANEYS1U.pcm",
     "isBridgingHeaderDependency" : false,
     "isFramework" : false,
     "moduleName" : "sys_types"
