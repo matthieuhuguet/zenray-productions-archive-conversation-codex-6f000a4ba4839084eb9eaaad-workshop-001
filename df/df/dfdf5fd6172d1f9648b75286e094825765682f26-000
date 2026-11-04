@@ -1,0 +1,753 @@
+#!/usr/bin/env node
+// build_synthesis_v2.mjs (4 November 2026): generates ultra-simple, zero-geek-UI HTML synthesis for ZenRay Clipboard
+// with two 1920x1080 anti-aliased diagrams rendered via headless Chrome in an isolated profile.
+
+import fs from 'node:fs'
+import os from 'node:os'
+import path from 'node:path'
+import crypto from 'node:crypto'
+import { spawnSync } from 'node:child_process'
+import { pathToFileURL } from 'node:url'
+
+const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
+const FONTS_DIR = '/Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts'
+const WORKSHOP = '/Users/zenray/.claude/tmp/tmp-conversation-codex-6f000a4ba4839084eb9eaaad'
+const MEM_PROJ = '/Users/zenray/.claude/Memory1/Projects/conversation-codex-6f000a4ba4839084eb9eaaad'
+
+const gtUltraB64 = fs.readFileSync(path.join(FONTS_DIR, 'GT-Ultra-Regular.woff2')).toString('base64')
+const literataB64 = fs.readFileSync(path.join(FONTS_DIR, 'Literata-latin.woff2')).toString('base64')
+const gtStdB64 = fs.readFileSync(path.join(FONTS_DIR, 'GT-Standard-L-Regular.woff2')).toString('base64')
+
+const fontFacesCss = `
+@font-face {
+  font-family: 'GT Ultra';
+  src: url('data:font/woff2;base64,${gtUltraB64}') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Literata';
+  src: url('data:font/woff2;base64,${literataB64}') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GT Standard L';
+  src: url('data:font/woff2;base64,${gtStdB64}') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+`
+
+// Diagram 1: 1920x1080 — How Cmd+B swaps and pastes the last 2 items in a single gesture
+const diagram1Html = `<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+${fontFacesCss}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background: #0B0D11;
+  color: #F4F3EF;
+  font-family: 'GT Standard L', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+.canvas {
+  width: 1920px;
+  height: 1080px;
+  padding: 88px 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: radial-gradient(circle at 50% 0%, rgba(217, 119, 87, 0.09) 0%, rgba(11, 13, 17, 0) 65%);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 32px;
+}
+.title {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 54px;
+  letter-spacing: -0.02em;
+  color: #F4F3EF;
+}
+.pill {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 26px;
+  color: #D97757;
+  background: rgba(217, 119, 87, 0.12);
+  border: 1.5px solid rgba(217, 119, 87, 0.38);
+  padding: 12px 28px;
+  border-radius: 999px;
+}
+.stage {
+  display: grid;
+  grid-template-columns: 1fr 240px 1fr;
+  align-items: stretch;
+  gap: 36px;
+  margin: auto 0;
+}
+.panel {
+  background: #131720;
+  border: 1.5px solid #242B3A;
+  border-radius: 28px;
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+}
+.panel.after {
+  border-color: rgba(74, 222, 128, 0.45);
+  background: linear-gradient(180deg, rgba(74, 222, 128, 0.05) 0%, #131720 100%);
+}
+.panel-label {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 28px;
+  color: #9CA3AF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel.after .panel-label {
+  color: #4ADE80;
+}
+.slot {
+  background: #1A202C;
+  border: 1.5px solid #2D3748;
+  border-radius: 20px;
+  padding: 32px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slot.active-orange {
+  background: rgba(217, 119, 87, 0.11);
+  border: 2px solid #D97757;
+}
+.slot.active-green {
+  background: rgba(74, 222, 128, 0.11);
+  border: 2px solid #4ADE80;
+}
+.slot-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.slot-rank {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 22px;
+  color: #9CA3AF;
+}
+.slot.active-orange .slot-rank { color: #D97757; }
+.slot.active-green .slot-rank { color: #4ADE80; }
+.slot-word {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 46px;
+  color: #F4F3EF;
+}
+.slot-sub {
+  font-family: 'Literata', serif;
+  font-size: 22px;
+  color: #A0AEC0;
+}
+.badge {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 20px;
+  padding: 8px 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  color: #CBD5E1;
+}
+.slot.active-orange .badge {
+  background: rgba(217, 119, 87, 0.22);
+  color: #FDBA74;
+}
+.slot.active-green .badge {
+  background: rgba(74, 222, 128, 0.22);
+  color: #86EFAC;
+}
+.center-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+}
+.keycap {
+  width: 190px;
+  height: 190px;
+  border-radius: 36px;
+  background: linear-gradient(180deg, #262D3D 0%, #171C26 100%);
+  border: 2.5px solid #D97757;
+  box-shadow: 0 16px 40px rgba(217, 119, 87, 0.25), inset 0 2px 0 rgba(255,255,255,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.keycap-main {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 64px;
+  color: #F4F3EF;
+}
+.keycap-sub {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 20px;
+  color: #D97757;
+}
+.arrows {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 24px;
+  color: #E2E8F0;
+  line-height: 1.4;
+}
+.info-banner {
+  margin-top: 4px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-title {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 23px;
+  color: #F4F3EF;
+}
+.info-desc {
+  font-family: 'Literata', serif;
+  font-size: 20px;
+  color: #9CA3AF;
+}
+.paste-banner {
+  margin-top: 4px;
+  background: rgba(74, 222, 128, 0.14);
+  border: 1.5px solid rgba(74, 222, 128, 0.45);
+  border-radius: 18px;
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paste-title {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 23px;
+  color: #4ADE80;
+}
+.paste-desc {
+  font-family: 'Literata', serif;
+  font-size: 20px;
+  color: #E2E8F0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-family: 'Literata', serif;
+  font-size: 24px;
+  color: #9CA3AF;
+}
+.footer strong {
+  font-family: 'GT Ultra', sans-serif;
+  font-weight: 400;
+  color: #F4F3EF;
+}
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="header">
+      <div class="title">Intervertir et coller en une touche</div>
+      <div class="pill">Raccourci ⌘B</div>
+    </div>
+
+    <div class="stage">
+      <div class="panel">
+        <div class="panel-label">
+          <span>Avant l'appui</span>
+          <span>2 derniers éléments</span>
+        </div>
+        <div class="slot active-orange">
+          <div class="slot-left">
+            <div class="slot-rank">Position 1 · Actuel</div>
+            <div class="slot-word">« chien »</div>
+            <div class="slot-sub">ou ton prompt texte</div>
+          </div>
+          <div class="badge">Prêt sur ⌘V</div>
+        </div>
+        <div class="slot">
+          <div class="slot-left">
+            <div class="slot-rank">Position 2 · Avant-dernier</div>
+            <div class="slot-word">« chat »</div>
+            <div class="slot-sub">ou ton image copiée avant</div>
+          </div>
+          <div class="badge">En attente</div>
+        </div>
+        <div class="info-banner">
+          <span class="info-title">⌘V colle « chien »</span>
+          <span class="info-desc">⌘B va chercher « chat »</span>
+        </div>
+      </div>
+
+      <div class="center-action">
+        <div class="keycap">
+          <div class="keycap-main">⌘B</div>
+          <div class="keycap-sub">1 seul appui</div>
+        </div>
+        <div class="arrows">Échange 1 ↔ 2<br>+ colle direct</div>
+      </div>
+
+      <div class="panel after">
+        <div class="panel-label">
+          <span>Après l'appui sur ⌘B</span>
+          <span>Inversé et collé</span>
+        </div>
+        <div class="slot active-green">
+          <div class="slot-left">
+            <div class="slot-rank">Position 1 · Nouveau actuel</div>
+            <div class="slot-word">« chat »</div>
+            <div class="slot-sub">devient le premier et se colle</div>
+          </div>
+          <div class="badge">Collé à l'écran</div>
+        </div>
+        <div class="slot">
+          <div class="slot-left">
+            <div class="slot-rank">Position 2 · Avant-dernier</div>
+            <div class="slot-word">« chien »</div>
+            <div class="slot-sub">prêt si tu rappuies sur ⌘B</div>
+          </div>
+          <div class="badge">Conservé en 2</div>
+        </div>
+        <div class="paste-banner">
+          <span class="paste-title">Collage auto inclus</span>
+          <span class="paste-desc">Sans refaire ⌘V après ⌘B</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div><strong>Rappuyer sur ⌘B</strong> alterne à l'infini entre les <strong>2</strong> éléments, sans toucher au reste de l'historique.</div>
+      <div><strong>⌘V</strong> colle le premier · <strong>⌘B</strong> inverse et colle l'avant-dernier</div>
+    </div>
+  </div>
+</body>
+</html>`
+
+// Diagram 2: 1920x1080 — Memory optimization (90 Mo vs 490 Mo while keeping 100% quality)
+const diagram2Html = `<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+${fontFacesCss}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background: #0B0D11;
+  color: #F4F3EF;
+  font-family: 'GT Standard L', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+.canvas {
+  width: 1920px;
+  height: 1080px;
+  padding: 88px 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: radial-gradient(circle at 80% 10%, rgba(74, 222, 128, 0.08) 0%, rgba(11, 13, 17, 0) 60%);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 32px;
+}
+.title {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 54px;
+  letter-spacing: -0.02em;
+  color: #F4F3EF;
+}
+.pill {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 26px;
+  color: #4ADE80;
+  background: rgba(74, 222, 128, 0.12);
+  border: 1.5px solid rgba(74, 222, 128, 0.38);
+  padding: 12px 28px;
+  border-radius: 999px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  margin: auto 0;
+}
+.card {
+  background: #131720;
+  border: 1.5px solid #242B3A;
+  border-radius: 28px;
+  padding: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+}
+.card-title {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 34px;
+  color: #F4F3EF;
+}
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.bar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.bar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.bar-name {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 26px;
+  color: #CBD5E1;
+}
+.bar-val {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 36px;
+}
+.bar-val.bad { color: #F87171; }
+.bar-val.good { color: #4ADE80; }
+.track {
+  width: 100%;
+  height: 44px;
+  background: #1A202C;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #2D3748;
+}
+.fill-bad {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #EF4444 0%, #F87171 100%);
+  border-radius: 12px;
+}
+.fill-good {
+  width: 19%;
+  height: 100%;
+  background: linear-gradient(90deg, #22C55E 0%, #4ADE80 100%);
+  border-radius: 12px;
+}
+.bar-note {
+  font-family: 'Literata', serif;
+  font-size: 22px;
+  color: #9CA3AF;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.step {
+  background: #1A202C;
+  border: 1.5px solid #2D3748;
+  border-radius: 20px;
+  padding: 26px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.step-num {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: rgba(217, 119, 87, 0.16);
+  border: 1.5px solid #D97757;
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 28px;
+  color: #D97757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.step-head {
+  font-family: 'GT Ultra', sans-serif;
+  font-size: 26px;
+  color: #F4F3EF;
+}
+.step-text {
+  font-family: 'Literata', serif;
+  font-size: 21px;
+  color: #A0AEC0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-family: 'Literata', serif;
+  font-size: 24px;
+  color: #9CA3AF;
+}
+.footer strong {
+  font-family: 'GT Ultra', sans-serif;
+  font-weight: 400;
+  color: #F4F3EF;
+}
+</style>
+</head>
+<body>
+  <div class="canvas">
+    <div class="header">
+      <div class="title">5 fois moins de mémoire, 100 % de qualité conservée</div>
+      <div class="pill">-81 % de RAM</div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="card-title">Mémoire vive occupée en arrière-plan</div>
+        <div class="bars">
+          <div class="bar-group">
+            <div class="bar-top">
+              <span class="bar-name">Version classique</span>
+              <span class="bar-val bad">490 Mo</span>
+            </div>
+            <div class="track"><div class="fill-bad"></div></div>
+            <div class="bar-note">Garde toutes les grandes miniatures décompressées en permanence en mémoire.</div>
+          </div>
+
+          <div class="bar-group">
+            <div class="bar-top">
+              <span class="bar-name">ZenRay Clipboard</span>
+              <span class="bar-val good">90 Mo</span>
+            </div>
+            <div class="track"><div class="fill-good"></div></div>
+            <div class="bar-note">Libère les aperçus dès que le menu se referme, tout en gardant chaque fichier intact.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Comment fonctionne l'allègement</div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <div class="step-head">Copies originales intactes à 100 %</div>
+              <div class="step-text">Tes images, captures et textes copiés ne sont jamais compressés ni dégradés.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <div class="step-head">Aperçus créés uniquement à l'ouverture</div>
+              <div class="step-text">La miniature visuelle se calcule à la volée uniquement sur l'élément que tu regardes.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <div class="step-head">Purge instantanée à la fermeture</div>
+              <div class="step-text">Dès que la fenêtre se ferme, la mémoire graphique des aperçus est immédiatement rendue au Mac.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div><strong>Zéro perte de qualité</strong> : quand tu colles une image, ce sont toujours les pixels d'origine qui sont collés.</div>
+      <div><strong>90 Mo</strong> au repos contre <strong>490 Mo</strong> auparavant</div>
+    </div>
+  </div>
+</body>
+</html>`
+
+function renderHtmlToPng(htmlContent, outPngPath) {
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'zr-diag-1080p-'))
+  const htmlPath = path.join(tmpDir, 'diag.html')
+  fs.writeFileSync(htmlPath, htmlContent, 'utf8')
+  const args = [
+    '--headless=new',
+    '--disable-gpu',
+    '--hide-scrollbars',
+    '--no-first-run',
+    '--no-default-browser-check',
+    '--force-device-scale-factor=1',
+    `--user-data-dir=${path.join(tmpDir, 'profile')}`,
+    '--window-size=1920,1080',
+    '--virtual-time-budget=2000',
+    `--screenshot=${outPngPath}`,
+    pathToFileURL(htmlPath).href,
+  ]
+  const res = spawnSync(CHROME, args, { encoding: 'utf8', timeout: 30000 })
+  fs.rmSync(tmpDir, { recursive: true, force: true })
+  if (res.status !== 0 || !fs.existsSync(outPngPath)) {
+    throw new Error(`Chrome screenshot failed: ${res.stderr}`)
+  }
+}
+
+const articlesDir = path.join(WORKSHOP, 'Articles')
+fs.mkdirSync(articlesDir, { recursive: true })
+const diag1Path = path.join(articlesDir, 'diagram-swap-1080p.png')
+const diag2Path = path.join(articlesDir, 'diagram-memory-1080p.png')
+
+renderHtmlToPng(diagram1Html, diag1Path)
+renderHtmlToPng(diagram2Html, diag2Path)
+
+const diag1B64 = fs.readFileSync(diag1Path).toString('base64')
+const diag2B64 = fs.readFileSync(diag2Path).toString('base64')
+
+// Wrap numbers in <span class="num"> outside tags
+function wrapNums(text) {
+  return text.replace(/(\d+(?:[\s.,%×x-]\d+)*)/g, '<span class="num">$1</span>')
+}
+
+const p1 = wrapNums(
+  "ZenRay Clipboard est ton presse-papiers intelligent sur Mac. Il te permet d'alterner instantanément entre tes 2 derniers éléments copiés et de les coller directement en appuyant sur une seule touche (⌘B). Quand tu copies une image puis un texte et que tu veux coller les deux à la suite sans rouvrir l'historique, ⌘V colle le dernier élément et ⌘B inverse les 2 derniers tout en collant immédiatement l'avant-dernier."
+)
+
+const p2 = wrapNums(
+  "Techniquement, l'application synchronise le presse-papiers en temps réel, échange la position des 2 premiers éléments non épinglés et déclenche automatiquement la commande de collage clavier dans la foulée. Elle est aussi allégée pour ne consommer qu'environ 90 Mo de mémoire vive au lieu de 490 Mo : tes images copiées gardent 100 % de leur qualité d'origine, tandis que les aperçus visuels du menu sont libérés de la mémoire dès que la fenêtre se referme."
+)
+
+const synthesisHtml = `<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZenRay Clipboard</title>
+<style>
+${fontFacesCss}
+:root {
+  --bg: #0B0D11;
+  --fg: #F4F3EF;
+  --muted: #D1CFC9;
+  --max-w: 1120px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Literata', Georgia, serif;
+  font-size: 20px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 72px 28px 96px;
+}
+main {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+h1 {
+  font-family: 'GT Ultra', sans-serif;
+  font-weight: 400;
+  font-size: clamp(38px, 5vw, 56px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+  color: var(--fg);
+}
+p {
+  color: var(--muted);
+  margin-bottom: 22px;
+  max-width: 78ch;
+}
+.num {
+  font-family: 'GT Ultra', sans-serif;
+  font-weight: 400;
+  color: var(--fg);
+}
+.diagrams {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.diagrams img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+</style>
+</head>
+<body>
+  <main>
+    <h1>ZenRay Clipboard</h1>
+    <p>${p1}</p>
+    <p>${p2}</p>
+    <div class="diagrams">
+      <img src="data:image/png;base64,${diag1B64}" width="1920" height="1080" alt="Fonctionnement du raccourci Cmd+B dans ZenRay Clipboard">
+      <img src="data:image/png;base64,${diag2B64}" width="1920" height="1080" alt="Optimisation mémoire de ZenRay Clipboard">
+    </div>
+  </main>
+</body>
+</html>
+`
+
+const targets = [
+  path.join(WORKSHOP, 'Articles/index.html'),
+  path.join(WORKSHOP, 'Synthesis.html'),
+  path.join(WORKSHOP, 'index.html'),
+  path.join(MEM_PROJ, 'Synthesis.html'),
+  path.join(MEM_PROJ, 'index.html'),
+]
+for (const t of targets) {
+  fs.mkdirSync(path.dirname(t), { recursive: true })
+  fs.writeFileSync(t, synthesisHtml, 'utf8')
+}
+
+// Create a small thumbnail data URL (640x360 JPEG) from diagram 1 for Assets article metadata
+const thumbJpgPath = path.join(articlesDir, 'thumb-640.jpg')
+spawnSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '80', '-z', '360', '640', diag1Path, '--out', thumbJpgPath])
+const thumbB64 = fs.readFileSync(thumbJpgPath).toString('base64')
+fs.writeFileSync(path.join(articlesDir, 'thumb-data-url.txt'), `data:image/jpeg;base64,${thumbB64}`, 'utf8')
+
+const sha256 = crypto.createHash('sha256').update(synthesisHtml).digest('hex')
+console.log(JSON.stringify({
+  ok: true,
+  htmlBytes: Buffer.byteLength(synthesisHtml),
+  sha256,
+  diag1Bytes: fs.statSync(diag1Path).size,
+  diag2Bytes: fs.statSync(diag2Path).size,
+}, null, 2))
